@@ -1,0 +1,18 @@
+Package: vecaniso
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "John",
+           family = "Best",
+           role = c("aut", "cre"),
+           email = "jkbest@uw.edu",
+           comment = c(ORCID = "0000-0002-8920-0900"))
+Maintainer: John Best <jkbest@uw.edu>
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
