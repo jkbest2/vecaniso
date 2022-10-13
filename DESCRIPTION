@@ -1,5 +1,5 @@
 Package: vecaniso
-Title: What the Package Does (One Line, Title Case)
+Title: Fit spatiotemporal models with anisotropy based on vector fields
 Version: 0.0.0.9000
 Authors@R:
     person(given = "John",
@@ -8,11 +8,20 @@ Authors@R:
            email = "jkbest@uw.edu",
            comment = c(ORCID = "0000-0002-8920-0900"))
 Maintainer: John Best <jkbest@uw.edu>
-Description: What the package does (one paragraph).
+Description: This package fits spatiotemporal models with spatially varying
+anisotropy. The degree and direction of anisotropy is defined by a pre-
+specified vector field. The package also includes some facilities for deriving
+vector fields.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
-Suggests: 
+Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Imports:
+    INLA,
+    sf,
+    stars,
+    starsExtra,
+    TMB
