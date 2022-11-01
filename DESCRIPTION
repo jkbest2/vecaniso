@@ -8,10 +8,7 @@ Authors@R:
            email = "jkbest@uw.edu",
            comment = c(ORCID = "0000-0002-8920-0900"))
 Maintainer: John Best <jkbest@uw.edu>
-Description: This package fits spatiotemporal models with spatially varying
-anisotropy. The degree and direction of anisotropy is defined by a pre-
-specified vector field. The package also includes some facilities for deriving
-vector fields.
+Description: This package fits spatiotemporal models with spatially varying anisotropy. The degree and direction of anisotropy is defined by a pre- specified vector field. The package also includes some facilities for deriving vector fields.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -25,3 +22,6 @@ Imports:
     stars,
     starsExtra,
     TMB
+Depends: 
+    R (>= 2.10)
+LazyData: true
